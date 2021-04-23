@@ -16,22 +16,36 @@ def start_site():
 
 </head>
 <body>
-<h1 style="color:rgb(150,0,0)" align="center">Самый лучший телеграмм бот во всей Челябинской области</h1>
-<div class="alert alert-primary" role="alert" align="center">
-  Вам нужно сохранять, записывать и просматривать свои задачи, но на рынке нет удобных для этого инструментов?
-</div>
-<div class="alert alert-secondary" role="alert">
-  Вы хотите быстро получать информацию о курсе доллара?
-</div>
-<div class="alert alert-success" role="alert">
-  Вы хотите своевременно узнавать курс евро?
-</div>
-<div class="alert alert-danger" role="alert">
-  Вам не нравятся часы и календарь в вашей ОС, но эта информация вам жизненно необходима?
-</div>
-<div class="alert alert-warning" role="alert">
-  Тогда я рад вам представить телеграмм бота, который всё это умеет....
+<h1 style="color:rgb(100,100,150)" align="center">Самый лучший телеграмм бот во всей Челябинской области</h1>
 
+<div class="alert alert-danger" role="alert" align="center">
+  <h2>Вам не нравятся часы и календарь в вашей ОС, но эта информация вам жизненно необходима?</h2>
+  <img src="{url_for('static', filename='img/бот дата время маленький1.png')}"
+               alt="Здесь должна была быть картинка, но мы не смогли найти её">
+</div>
+
+<div class="alert alert-secondary" role="alert" align="center">
+  <h2>Вы хотите быстро получать информацию о курсе доллара, но все информационные порталы для вас неудобны?</h2>
+  <img src="{url_for('static', filename='img/бот доллар.png')}"
+               alt="Здесь должна была быть картинка, но мы не смогли найти её">
+</div>
+
+<div class="alert alert-success" role="alert" align="center">
+  <h2>Вы хотите своевременно узнавать курс евро, но ни один сайт не может предоставить быстро и достоверно нужную вам информацию?</h2>
+  <img src="{url_for('static', filename='img/бот евро.png')}"
+               alt="Здесь должна была быть картинка, но мы не смогли найти её">
+</div>
+
+<div class="alert alert-primary" role="alert" align="center">
+  <h2>Вам нужно сохранять, записывать и просматривать свои задачи, но на рынке нет удобных для этого инструментов?</h2>
+  <img src="{url_for('static', filename='img/бот задачи.png')}"
+               alt="Здесь должна была быть картинка, но мы не смогли найти её">
+</div>
+
+<div class="alert alert-warning" role="alert" align="center">
+  <h2>Тогда я рад вам представить телеграмм бота, который всё это умеет....</h2>
+  <a href="https://t.me/TaskManagerPyBot"><h2>https://t.me/TaskManagerPyBot</h2></a>
+</div>
 </body>
 </html>"""
 
